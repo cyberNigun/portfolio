@@ -1,0 +1,184 @@
+.service {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 40vh;
+  margin-bottom: 8rem;
+  margin-top: 20rem;
+  margin-bottom: 13rem;
+}
+.s-left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.s-left :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.s-left :nth-child(2) {
+  color: var(--blue);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.s-left :nth-child(3) {
+  color: var(--grey);
+  font-size: 15px;
+  margin-top: 1rem;
+  /* text-align: center; */
+  word-spacing: 5px;
+  flex-direction: column;
+}
+.s-right {
+  flex: 1;
+  position: relative;
+  margin-left: 20rem;
+}
+.html {
+  word-spacing: 20rem;
+}
+.css {
+  word-spacing: 20.5rem;
+  margin-top: 10rem;
+}
+.js {
+  word-spacing: 18rem;
+}
+.react {
+  word-spacing: 19rem;
+}
+.node {
+  word-spacing: 19rem;
+}
+#html-progress {
+  background: #d3d3d3;
+  border-radius: 13px;
+  height: 12px;
+  width: 400px;
+  padding: 3px;
+}
+
+#html-progress:after {
+  content: "";
+  display: block;
+  background: var(--blue);
+  width: 90%;
+  height: 100%;
+  border-radius: 9px;
+}
+#css-progress {
+  background: #d3d3d3;
+  border-radius: 13px;
+  height: 12px;
+  width: 400px;
+  padding: 3px;
+}
+
+#css-progress:after {
+  content: "";
+  display: block;
+  background: var(--blue);
+  width: 70%;
+  height: 100%;
+  border-radius: 9px;
+}
+#js-progress {
+  background: #d3d3d3;
+  border-radius: 13px;
+  height: 12px;
+  width: 400px;
+  padding: 3px;
+}
+
+#js-progress:after {
+  content: "";
+  display: block;
+  background: var(--blue);
+  width: 80%;
+  height: 100%;
+  border-radius: 9px;
+}
+#react-progress {
+  background: #d3d3d3;
+  border-radius: 13px;
+  height: 12px;
+  width: 400px;
+  padding: 3px;
+}
+
+#react-progress:after {
+  content: "";
+  display: block;
+  background: var(--blue);
+  width: 85%;
+  height: 100%;
+  border-radius: 9px;
+}
+#node-progress {
+  background: #d3d3d3;
+  border-radius: 13px;
+  height: 12px;
+  width: 400px;
+  padding: 3px;
+}
+
+#node-progress:after {
+  content: "";
+  display: block;
+  background: var(--blue);
+  width: 56%;
+  height: 100%;
+  border-radius: 9px;
+}
+@media only screen and (max-width: 480px) {
+  .service {
+    flex-direction: column;
+    height: 20rem;
+    padding: 0;
+    gap: 5rem;
+  }
+  .s-right {
+    left: -20rem;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 10rem;
+    gap: 5rem;
+  }
+  #html-progress {
+    border-radius: 13px;
+    height: 12px;
+    width: 350px;
+    padding: 3px;
+  }
+  #css-progress {
+    border-radius: 13px;
+    height: 12px;
+    width: 350px;
+    padding: 3px;
+  }
+  #js-progress {
+    border-radius: 13px;
+    height: 12px;
+    width: 350px;
+    padding: 3px;
+  }
+  #react-progress {
+    border-radius: 13px;
+    height: 12px;
+    width: 350px;
+    padding: 3px;
+  }
+  #node-progress {
+    border-radius: 13px;
+    height: 12px;
+    width: 350px;
+    padding: 3px;
+  }
+  .html {
+    word-spacing: 5rem;
+  }
+  .js {
+    word-spacing: 10rem;
+  }
+}
